@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .header{
+                width: 100%;
+                height: 50px;
+                background-color: Orange;
+                font-size: 50px;
+                text-align: center;
+                color: blue;
+                padding: 15px 0px 15px 0px;
+            }
+            .content{
+                width:100%;
+            }
+            .footer{
+                 width: 100%;
+                height: 30px;
+                background-color: Orange;
+                position: fixed;
+                bottom: 0px;
+                text-align: center;
+                color: blue;
+            }
+             nav{
+                background-color: brown;
+                height: 30px;
+                text-align: center;
+            }
+            nav a{
+                font-size: 15px;
+                background-color: wheat;
+                padding: 5px 45px 5px 45px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class='header'>
+            Flipkart
+        </div>
+            <nav>
+                <a href='#'>Home</a>
+                <a href='#'>About</a>
+                <a href='#'>contact us</a>
+                <a href='#'>Feedback</a> 
+            </nav>
+        <div class='content'>
+            <fieldset style="width: 45%;float: right">
+                  <legend>Sign Up here</legend>
+                <form action="Home" method="post">
+                <table border="0" align='center'>
+                    <thead>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" name="firstName" placeholder="First Name" required="required"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="lastName" placeholder="Last Name" required="required"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="mailId" placeholder="Mail Id" required="required"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Gender</label>
+                                <input type="radio" name="Gender" value="Male" checked="checked" />Male
+                                <input type="radio" name="Gender" value="Female" />Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                 <input type="password" name="password" placeholder="Password" required="required"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               <input type="submit" value="SignUp" />
+                               <input type="reset" value="Cancel" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>  
+            </fieldset>
+        </div>
+            <div class='footer'>
+            &copy Copyright to NIIT. All rights received 2017
+        </div>
+    </body>
+</html>
