@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/Advanced%20general%20java%20programs/HtmlDemo/src/java/NewServlet1.java</file>
-            <file>file:/F:/Advanced%20general%20java%20programs/HtmlDemo/src/java/NewServlet.java</file>
-            <file>file:/F:/Advanced%20general%20java%20programs/HtmlDemo/web/newhtml.html</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/web/login.html</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/src/java/com/eshop/db/DataSource.java</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/src/java/com/eshop/controller/UserController.java</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/src/java/com/eshop/service/UserDAOImpl.java</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/src/java/com/eshop/DAO/UserDAO.java</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/web/index.html</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/src/java/com/eshop/model/User.java</file>
+            <file>file:/F:/Advanced%20general%20java%20programs/Eeshopping/web/Welcome.jsp</file>
         </group>
     </open-files>
 </project-private>
